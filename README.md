@@ -1,6 +1,6 @@
 # 🛡️ PayRakshak
 
-(This Site isnt deployed As i'm Working on it For IQOO hackathon the web app is at its development stage and not yet optimised. Thank you! - Aryan S. Bhalsing )
+(This Site isnt deployed As i'm Working on it ; the web app is at its development stage and not yet optimised. Thank you! - Aryan S. Bhalsing )
 
 <a href="https://ibb.co/zT5j8MRW"><img src="https://i.ibb.co/tThkZGsw/Screenshot-2026-08-22-130009.png" alt="Screenshot-2026-08-22-130009" border="0"></a>
 <a href="https://ibb.co/JRfc5LNM"><img src="https://i.ibb.co/ccGyD5P7/image-2026-08-22-130552450.png" alt="image-2026-08-22-130552450" border="0"></a>
