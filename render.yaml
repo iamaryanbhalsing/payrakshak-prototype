@@ -4,7 +4,7 @@ services:
     name: payrakshak-backend
     rootDir: backend
     env: node
-    plan: free
+    # Remove: plan: free
     buildCommand: npm install && npm run build
     startCommand: npm start
     healthCheckPath: /api/health
@@ -19,7 +19,7 @@ services:
     name: payrakshak-frontend
     rootDir: frontend
     env: static
-    plan: free
+    # Remove: plan: free
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
     envVars:
