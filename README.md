@@ -1,5 +1,7 @@
 # 🛡️ PayRakshak
 
+(This Site isnt deployed As i'm Working on it For IQOO hackathon the web app is at its development stage and not yet optimised. Thank you! - Aryan S. Bhalsing )
+
 **Your Smart Shield Against UPI Scams**
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
