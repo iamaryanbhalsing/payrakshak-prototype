@@ -1,0 +1,1 @@
+Testing verbatim here-string with "quotes" and $variables and && and ||

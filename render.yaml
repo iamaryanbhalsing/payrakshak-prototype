@@ -1,0 +1,31 @@
+services:
+  # Backend Web Service
+  - type: web
+    name: payrakshak-backend
+    rootDir: backend
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+
+  # Frontend Static Site
+  - type: web
+    name: payrakshak-frontend
+    rootDir: frontend
+    env: static
+    plan: free
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_BASE
+        value: https://payrakshak-backend.onrender.com/api
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

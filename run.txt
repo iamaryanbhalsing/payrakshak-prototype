@@ -1,0 +1,1 @@
+cd /d D:\payrakshak-prototype\frontend && set VITE_DISABLE_EVENTSOURCE=true && npx vite --port 3000 --host
